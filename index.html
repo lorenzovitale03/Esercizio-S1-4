@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+  integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="assets/css/style.css">
+
+<body>
+  <div id="headerBox">
+    <header>
+      <img src="assets/img/logo.svg" alt="immagineLogo">
+      <h1>EPICODE - IL BLOG DEI DEVELOPERS</h1>
+      <ul id="contentId">
+        <li>HOME</li>
+        <li>ARTICOLI</li>
+        <li>JOBS</li>
+      </ul>
+    </header>
+  </div>
+
+  <div id="mainBox">
+    <main>
+      <article>
+        <h2 class="coloreNero">Come creare un template per i post</h1>
+          <h3>di Mario Rossi - pubblicato il 25-10-2020</h3>
+          <p>La prima cosa è suddividere in blocchi logici la pagina,identificando le <b>parti comuni</b> da applicare a
+            tutte le pagine</p>
+          <p>Le varie arie saranno suddivise quindi in:</p>
+          <ul>
+            <li>Contenuti di intestazione del tag <code>&lt;header&gt;</code></li>
+            <li>Contenuti centrali variabili del tag<code> &lt;main&gt;</code></li>
+            <li>Contenuti di fine pagina comuni,da inserire nel tag<code> &lt;footer&gt;</code></li>
+          </ul>
+          <h3>Formattazione del codice</h3>
+          <p>Il testo dell'articolo dovrà essere formattato per identificare tutte le parti da selezionare con i CSS.
+            Perciò i passi saranno:</p>
+          <ol>
+            <li>Progettare su carta il markup finale,assegnando ad ogni specifico testo il tag appropriato</li>
+            <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'alto verso il basso</li>
+            <li>Applicare gli stili CSS</li>
+          </ol>
+          <p>L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere la diffusione pressochè totale.</p>
+          <table>
+            <caption><b id="captionBold"><em>Diffusione dei CSS</b></em></caption>
+            <tbody>
+              <thead>
+                <tr>
+                  <th>Anno</th>
+                  <th>% di utilizzo</th>
+                  <th>supporto browsers</th>
+                </tr>
+                <tr>
+                  <td>2000</td>
+                  <td>20%</td>
+                  <td>17%</td>
+                </tr>
+                <tr>
+                  <td>2000</td>
+                  <td>20%</td>
+                  <td>17%</td>
+                </tr>
+                <tr>
+                  <td>2000</td>
+                  <td>20%</td>
+                  <td>17%</td>
+                </tr>
+                <tr>
+                  <td>2000</td>
+                  <td>20%</td>
+                  <td>17%</td>
+                </tr>
+                <tr>
+                  <td>2000</td>
+                  <td>20%</td>
+                  <td>17%</td>
+                </tr>
+            </tbody>
+            </thead>
+          </table>
+
+          <p>Un testo di validazione potrà essere fatto tramite il <u>tool online</u> dedicato allo scopo.Una volta
+            ottimizzato il tutto,avremo raggiunto il nostro obiettivo ed essere stati veri developers come loro:</p>
+          <iframe width="300" height="300" src="https://www.youtube.com/embed/dvOvHXruEDM" title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen id="videoYoutube"></iframe>
+          <div id="formBox">
+            <h2>NOVITA'</h2>
+            <form action="email.html">
+              <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</p>
+              <label for="email"></label>
+              <input type="email" id="email" placeholder="Inserisci email">
+              <button type="button" id="colorButton">Iscriviti!</button>
+            </form>
+          </div>
+      </article>
+    </main>
+
+    <h2 id="centerTitle">ARTICOLI CORRELATI</h2>
+
+    <aside>
+      <div id="asideBox">
+        <a href="correlato1.html">Validare il codice HTML</a>
+        <p>Categoria: develop</p>
+        <p id="rightDate">Data:18-9-2020</p>
+      </div>
+      <div id="asideBox">
+        <a href="correlato2.html">Correggere la sintassi</a>
+        <p>Categoria: develop</p>
+        <p id="rightDate">Data:16-9-2020</p>
+      </div>
+      <div id="asideBox">
+        <a href="correlato3.html">Meno Kb nella pagina</a>
+        <p>Categoria: ottimizzazione</p>
+        <p id="rightDate" class="dateCalendar">Data:30-9-2020</p>
+      </div>
+    </aside>
+
+    <footer>  
+        <p class="footerText">Blog Epicode  ©2021</p>
+        <address id="footerAddress">Testata online di Mario Rossi,registrata con prot.n213/2018 - via Luigi Einaudi 2 - Milano P.IVA 00112233 <a href="info@epicode.school">info@epicode.school</a></address>
+    </footer>
+  </div>
+  
+</body>
+
+</html>

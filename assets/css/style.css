@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+/* IMPOSTAZIONI GENERALI */
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/sfondo.png);
+    font-family: 'Poppins',sans-serif;
+}
+
+/* HEADER */
+#headerBox {
+    background-color: #0098BD;
+    margin: 15px;
+    border-radius: 8px 8px 8px 8px;
+    text-align: center;
+}
+
+header{
+    color: aliceblue;
+}
+
+ul {
+    list-style-type: none;
+    margin-block-start: 0;
+    padding-inline-start: 0px;
+    }
+
+#contentId li::before{
+    content: "→ ";
+}
+
+#contentId li::after{
+    content: " ←";
+}
+
+/* MAIN */
+#mainBox{
+    background-color: rgb(254, 254, 254);
+    margin: 15px;
+    border-radius: 8px 8px 8px 8px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px 2px rgb(215, 197, 197);
+}
+
+p{
+    color: black;
+}
+
+b{
+    color: blueviolet;
+}
+
+table{
+    width: 300px;
+    border-collapse: collapse;
+    border-bottom: #0098BD;
+    border-top: #0098BD;
+}
+
+#captionBold{
+    color: black;
+}
+
+th{
+    background-color: #3F6BCA;
+    color: white;
+    padding: 2px;
+}
+
+tr:nth-of-type(2n){
+    background-color: #F3F3F3;
+}
+
+article{
+    margin: 10px;
+}
+
+u{
+    color: #00A0C6;
+}
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+#videoYoutube{
+    border-radius: 16px 16px 16px 16px;
+}
+/* TABELLE */
+
+/* FORM */
+#formBox{
+    background-color: #E3E3E3;
+    padding: 16px;
+    text-align: center;
+}
+
+#colorButton{
+    background-color: #3F6BCA;
+    color: #FFFFFF;
+    border: 1px solid #3F6BCA;
+}
+
+/* ELEMENTI NELL' ASIDE */
+
+#centerTitle{
+    text-align: center;
+}
+#asideBox{
+    background-color: #E3E3E3;
+    padding: 20px;
+    margin: 12px;
+    border: 1px solid #C3C3C3;
+}
+
+#rightDate{
+    text-align: right;
+}
+/* FOOTER */
+
+footer{
+    background-color: #055567;
+    padding: 20px;
+    margin: 12px;
+    text-align: center;
+}
+
+.footerText{
+    color: white;
+}
+
+#footerAddress{
+    color: white;
+}
